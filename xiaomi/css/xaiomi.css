@@ -1,0 +1,286 @@
+
+.w{
+    /* 固定容器的宽度 */
+    width: 1226px;
+    /* 设置容器居中 */
+    margin: 0 auto;
+}
+/*设置页面字体大小*/
+body{
+	color: #333333;
+	font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}/*去掉超链接的下划线*/
+a{
+	color: #b0b0b0;
+	text-decoration: none;	
+}
+/*定义a1的样式*/
+.out1{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+}
+/*设置内部导航栏的样式*/
+.out2{
+	width: 1226px;
+	margin: 0 auto;
+	height: 40px;
+    line-height: 40px;
+}
+/*把左侧的li浮动*/
+.daohang li{
+	float: left;
+	margin:0 4px;
+	font-size: 12px;
+}
+/*右侧把li浮动*/
+.daohang2 li{
+	float: right;
+	margin:0 4px;
+	font-size: 12px;
+}
+.out1 a:hover{
+	color: aliceblue;
+}
+
+/*设置|的样式shuxian*/
+.shuxian{
+	color: #b0b0b0;
+	position: relative;
+	top: -1px;
+}
+/*隐藏div的样式*/
+.yincang{
+	width: 100px;
+	height: 130px;
+	position: absolute;
+	top: 40px;
+	right: 750px;
+	padding-left: 10px;
+	display: none;
+	box-shadow: 0 0 10px rgb(0,0,0,.3);
+	line-height: 20px;
+	color: #000;
+	z-index: 3;
+}
+/*隐藏图层的图片样式*/
+.yincang img{
+	width: 90px;
+	height: 90px;
+	margin-top: 5px;
+}
+/*鼠标移入下载app显示隐藏内容*/
+.xianshi:hover .yincang {
+	display: block;
+}
+.xia{
+	width: 1226px;
+	margin: 0 auto;
+	line-height: 50px;
+	height: 88px;
+	margin-bottom: 10px;
+}
+.xia2 {
+    width: 1100px;
+ 
+}
+.tubiao img{
+	margin-top: 20px;
+	float: left;
+}
+.xia-ul li,.xia-ul li a
+{
+	float: left;
+	margin: 0;
+	padding: 12px 0 0 10px; 
+	font-size: 16px; 
+	color: #000000; 
+}
+.xia-ul:first-child{
+	margin-left: 300px;
+}
+.xia-ul a:hover{
+	color: red;
+}
+.xia-sousuo {
+	width: 200px;
+	height: 30px;
+	/*background-color: yellow;*/
+	float: right;
+	position: absolute;
+	top: 75px;
+	right: 180px;
+}
+.xia-sousuo input{
+	float: left;
+	height: 30px;
+	padding: 0;
+}
+.lunbutu{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+}
+.lunbutu img{
+	width: 1226px;
+	position:absolute;
+	z-index: 2;
+	box-shadow: 0 0 10px rgb(0,0,0,.3);
+}
+.lunbotu-box-caidan{
+	background: rgb(105,101,101,.6);
+	width: 300px;
+	height: 460px;
+	position:absolute;
+	z-index: 3;
+	float: left;
+	color: #fff;
+	
+}
+/*.lunbotu-box-caidan:first-child{
+	margin-top: 15px;
+}*/
+.lunbotu-box-caidan li{
+	line-height: 44px;
+	padding:  0 30px;
+	color: #fff;
+	
+}
+.lunbotu-box-caidan li a{
+	color: #fff;
+	display: block;
+	float: left;
+	width: 230px;
+}
+
+
+/*.lunbotu-box-caidan1:hover{
+	background-color:#ff6700 ;
+}*/
+.lunbotu-box-caidan-yincang{
+	z-index:99;
+    width: 926px;
+    height: 460px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left:440px ;
+	box-shadow: 0 0 10px rgb(0,0,0,.3);
+/*	display: none;*/
+}
+/*.lunbotu-box-caidan-yincang:hover{display: block;}*/
+.qianjin,
+.houtui{
+	
+}
+.qianjin {
+	width:41px ;
+	height: 56px;
+	font-size: 55px;
+	line-height: 56px;
+	position: relative;
+	top: 200px;
+	left: 300px;
+	z-index: 6;
+	color: #B0B0B0;
+	
+}
+.houtui {
+	width:41px ;
+	height: 56px;
+	line-height: 56px;
+	position: relative;
+	font-size: 60px;
+	top: 143px;
+	left: 1187px;
+	z-index: 6;
+	color: #B0B0B0;
+}
+.ad{
+    height: 170px;
+    margin-top: 14px;
+}
+
+.ad .shortcut,
+.ad .imgs,
+.ad li{
+    float: left;
+}
+
+/* 设置左侧快捷方式 */
+.ad .shortcut{
+    width: 228px;
+    height: 168px;
+    background-color: #5f5750;
+    margin-right: 14px;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+.ad .shortcut li{
+    position: relative;
+}
+
+/* 设置上边框 */
+.ad .shortcut li::before{
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    background-color: #665e57;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto
+}
+
+/* 设置左边框 */
+.ad .shortcut li::after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 1px;
+    background-color: #665e57;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: 0;
+
+}
+
+/* 设置快捷方式中的超链接 */
+.ad .shortcut a{
+    display: block;
+    color: #cfccca;
+    height: 84px;
+    width: 76px;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.ad .shortcut a:hover{
+    color: #fff;
+}
+
+/* 设置图标字体 */
+.ad .shortcut i{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+
+/* 设置左侧的图片 */
+.ad .imgs li{
+    width: 316px;
+    margin-right:15px; 
+}
+
+.ad .imgs li:last-child{
+    margin: 0;
+}
+
+.ad .imgs img{
+    width: 100%;
+    vertical-align: top;
+}

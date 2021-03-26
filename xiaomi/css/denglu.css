@@ -1,0 +1,72 @@
+
+body{
+	font-size: 20px;
+	color: #FFA500;
+	background-image: url(../img/233154-1615131114b6d4.jpg);
+	background-size: 100%;
+}
+ .zhuce2 a{
+	text-decoration: none;
+	color: red;
+	
+}
+.w{
+    /* 固定容器的宽度 */
+    width: 1226px;
+    /* 设置容器居中 */
+    margin: 0 auto;
+    height: 100px;
+}
+
+.denglu{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto ;
+/*	float: right;*/
+	background-color: rgb(0,0,0,.3);
+	line-height: 50px;
+}
+.denglu div,
+.denglu input
+{
+	margin: 0 200px;
+}
+.denglu input{
+	height: 20px;
+}
+#denglu{
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 240px;
+	margin-top: 20px;
+}
+#denglu:hover{
+	background-color: aqua;
+	color: #FF0000;
+}
+.zhuce{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto ;
+/*	float: right;*/
+	background-color: rgb(0,0,0,.3);
+	line-height: 30px;
+}
+.yanzhengma{
+	width: 60px;
+	height: 25px;
+	border: 1px solid #5F5750;
+	position: absolute;
+	top: 414px;
+	left: 650px;
+	background: url(../img/插图1.png) left top/60px 25px;
+}
+.zhuce div,
+.zhuce input
+{
+	margin: 0 200px;
+}
+.zhuce input{
+	height: 20px;
+}

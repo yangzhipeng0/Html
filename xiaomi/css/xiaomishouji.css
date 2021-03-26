@@ -1,0 +1,80 @@
+
+body p{
+	margin-left: 10px;
+}
+.datu{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.datu a img{
+	width: 100%;
+}
+.zhanshi1{
+	width: 1226px;
+	height: 434px;
+	background-image: url(../img/小米10.jpg);
+	background-repeat: no-repeat;
+	background-size: 845px;
+	margin-bottom: 20px;
+}
+.da1{
+	font-size:30px;
+}
+.da2{
+	
+	font-size: 25px;
+}
+.h{
+	color: red;
+}
+.gao{
+	height: 1px;
+}
+.jieshao1{
+	margin-top: 100px;
+	margin-left: 900px;
+}
+.zhanshi1:hover{
+	position: relative;
+	top: -5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.3);
+}
+.two{
+	height: 482px;
+	float: left;
+}
+.two img{
+	width: 606px;
+	height: 358px;
+}
+.h2{
+	color: red;
+	width: 150px;
+	height: 60px;
+	position: relative;
+	top: -30px;
+	left: 400px;
+}
+.two2{
+	height: 482px;
+	float: right;
+}
+.two2 img{
+	width: 606px;
+	height: 358px;
+}
+.two:hover{
+	position: relative;
+	top: -5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.3);
+}
+
+.two2:hover{
+	position: relative;
+	top: -5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.3);
+}
+.m{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
